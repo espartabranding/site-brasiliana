@@ -30,10 +30,10 @@
     ]
   }
   </script>
-  <script type="module" crossorigin src="./assets/index-CFLjTxdK.js"></script>
+  <script type="module" crossorigin src="./assets/index-lLVpI9Mm.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/vendor-BJO8XaA3.js">
   <link rel="stylesheet" crossorigin href="./assets/vendor-bU6MIf_c.css">
-  <link rel="stylesheet" crossorigin href="./assets/index-CVdwA05F.css">
+  <link rel="stylesheet" crossorigin href="./assets/index-m8io30J3.css">
 </head>
 <body class="is-loading">
   <a class="skip" href="#conteudo">Pular para o conteúdo</a>
@@ -58,11 +58,11 @@
     <nav class="header__nav" aria-label="Seções">
       <a href="#sobre">Sobre</a>
       <a href="#pacotes">Pacotes</a>
-      <a href="#destinos">Destinos</a>
+      <a href="#pedagogico">Pedagógico</a>
+      <a href="#religioso">Religioso</a>
+      <a href="#enoturismo">Enoturismo</a>
+      <a href="#corporativo">Corporativo</a>
       <a href="#sonho">Sob medida</a>
-      <a href="#servicos">Serviços</a>
-      <a href="#galeria">Galeria</a>
-      <a href="#depoimentos">Depoimentos</a>
       <a href="#contato">Contato</a>
     </nav>
     <div class="header__actions">
@@ -82,12 +82,18 @@
       <li><a href="#inicio"><small>01</small><span>Início</span></a></li>
       <li><a href="#sobre"><small>02</small><span>Sobre</span></a></li>
       <li><a href="#pacotes"><small>03</small><span>Pacotes</span></a></li>
-      <li><a href="#destinos"><small>04</small><span>Destinos</span></a></li>
-      <li><a href="#sonho"><small>05</small><span>Sob medida</span></a></li>
-      <li><a href="#servicos"><small>06</small><span>Serviços</span></a></li>
-      <li><a href="#galeria"><small>07</small><span>Galeria</span></a></li>
+      <li><a href="#roteiros"><small>04</small><span>Roteiros</span></a></li>
+      <li><a href="#destinos"><small>05</small><span>Destinos</span></a></li>
+      <li><a href="#sonho"><small>06</small><span>Sob medida</span></a></li>
+      <li><a href="#servicos"><small>07</small><span>Serviços</span></a></li>
       <li><a href="#depoimentos"><small>08</small><span>Depoimentos</span></a></li>
       <li><a href="#contato"><small>09</small><span>Contato</span></a></li>
+    </ul>
+    <ul class="menu__segs" aria-label="Segmentos">
+      <li><a href="#pedagogico">Pedagógico</a></li>
+      <li><a href="#religioso">Religioso</a></li>
+      <li><a href="#enoturismo">Enoturismo</a></li>
+      <li><a href="#corporativo">Corporativo</a></li>
     </ul>
     <div class="menu__foot">
       <a data-wa="Olá, gostaria de planejar uma viagem com vocês!" href="#contato">(51) 99966-7588 · Atendimento online</a>
@@ -106,6 +112,15 @@
           <figure class="hero__slide" data-word="Aparecida." data-trip="Aparecida/SP" data-dates="24 a 27/11/2026" data-price="R$ 2.990" data-label="Santuário Nacional · São Paulo">
             <span class="hero__pan"><img src="img/destinos/aparecida.jpg" alt="Basílica de Nossa Senhora Aparecida" /></span>
           </figure>
+          <figure class="hero__slide" data-word="Escolas." data-trip="Turismo pedagógico para escolas" data-label="Pedagógico · Missões · RS">
+            <span class="hero__pan"><img src="img/roteiros/missoes.jpg" alt="Ruínas de São Miguel das Missões" /></span>
+          </figure>
+          <figure class="hero__slide" data-word="Vinhos." data-trip="Enoturismo no Vale dos Vinhedos" data-label="Enoturismo · Serra Gaúcha">
+            <span class="hero__pan"><img src="img/roteiros/vinhedos.jpg" alt="Videiras do Vale dos Vinhedos" /></span>
+          </figure>
+          <figure class="hero__slide" data-word="Empresas." data-trip="Turismo corporativo" data-label="Corporativo · Eventos e equipes">
+            <span class="hero__pan"><img src="img/grupos/grupo-06.jpg" alt="Grande grupo da Brasiliana reunido num auditório" /></span>
+          </figure>
           <figure class="hero__slide" data-word="Vaticano." data-trip="Vaticano e Roma" data-label="Praça de São Pedro · Roma">
             <span class="hero__pan"><img src="img/destinos/vaticano.jpg" alt="Praça de São Pedro ao nascer do sol, no Vaticano" /></span>
           </figure>
@@ -122,11 +137,15 @@
         <div class="hero__shade"></div>
 
         <h1 class="hero__title">
-          <span class="sr-only">Brasiliana Viagens: Aparecida, Vaticano, Nova York, Nordeste e Minas.</span>
+          <span class="sr-only">Brasiliana Viagens: turismo religioso, pedagógico, enoturismo, corporativo e viagens pelo Brasil e pelo mundo.</span>
           <span class="hero__words" aria-hidden="true"></span>
         </h1>
 
         <div class="hero__label" aria-hidden="true"><span class="hero__label-track"></span></div>
+
+        <nav class="hero__segs" aria-label="Segmentos">
+          <a href="#religioso">Religioso</a><a href="#pedagogico">Pedagógico</a><a href="#enoturismo">Enoturismo</a><a href="#corporativo">Corporativo</a><a href="#pacotes">Lazer</a>
+        </nav>
 
         <div class="hero__ctas">
           <button class="pill pill--green pill--big hero__cta magnetic" type="button" data-book data-cursor="Reservar">Quero essa viagem!</button>
@@ -281,6 +300,83 @@
           </article>
         </div>
         <div class="packages__progress" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- ============ ROTEIROS POR SEGMENTO ============ -->
+    <section class="routes" id="roteiros" data-bg="sand">
+      <header class="routes__head">
+        <p class="eyebrow">Roteiros para grupos</p>
+        <h2 class="display split-chars">Um roteiro para cada grupo.</h2>
+        <p class="routes__lead">Escolas, paróquias, empresas e amigos. Cada roteiro é ajustado ao grupo, à data e ao orçamento.</p>
+        <nav class="segs" aria-label="Segmentos">
+          <a href="#pedagogico">Pedagógico</a><a href="#religioso">Religioso</a><a href="#enoturismo">Enoturismo</a><a href="#corporativo">Corporativo</a>
+        </nav>
+      </header>
+
+      <div class="seg" id="pedagogico">
+        <div class="seg__head">
+          <p class="eyebrow">Turismo pedagógico</p>
+          <h3 class="seg__title">Aula sem paredes.</h3>
+          <p>Saídas de estudo, viagens pedagógicas e formaturas para escolas, com objetivos de aprendizagem, material do professor e todo o cuidado com cada aluno.</p>
+          <a class="link-btn" href="apresentacoes/2026-11-escolas.html" target="_blank" rel="noopener">Ver a apresentação para escolas →</a>
+        </div>
+        <ul class="rts">
+          <li class="rt" data-trip="Missões (viagem de estudo)"><figure class="rt__media"><img src="img/roteiros/missoes.jpg" alt="Ruínas de São Miguel das Missões" loading="lazy" /></figure><p class="rt__type">Viagem de estudo · 3 dias</p><h4 class="rt__name">Missões</h4><p class="rt__desc">Jesuítas e Guarani contados no lugar onde aconteceu. 8º ano ao Ensino Médio.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Pequenos exploradores"><figure class="rt__media"><img src="img/roteiros/jardim.jpg" alt="Lago do Jardim Botânico de Porto Alegre" loading="lazy" /></figure><p class="rt__type">Saída de um dia · Porto Alegre</p><h4 class="rt__name">Pequenos exploradores</h4><p class="rt__desc">Jardim Botânico e sítio. Natureza e alimentação, da Educação Infantil ao 2º ano.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Ciência na prática"><figure class="rt__media"><img src="img/roteiros/planetario.jpg" alt="Planetário da UFRGS" loading="lazy" /></figure><p class="rt__type">Saída de um dia · Porto Alegre</p><h4 class="rt__name">Ciência na prática</h4><p class="rt__desc">Museu de ciências e Planetário. Do 3º ao 6º ano.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Porto Alegre que conta história"><figure class="rt__media"><img src="img/roteiros/mercado.jpg" alt="Mercado Público de Porto Alegre" loading="lazy" /></figure><p class="rt__type">Saída de um dia · Centro Histórico</p><h4 class="rt__name">Porto Alegre que conta história</h4><p class="rt__desc">Mercado, Matriz e Gasômetro. Do 4º ao 7º ano.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Rota da Imigração Alemã"><figure class="rt__media"><img src="img/roteiros/enxaimel.jpg" alt="Casa enxaimel em Ivoti" loading="lazy" /></figure><p class="rt__type">Saída de um dia · Vale do Sinos</p><h4 class="rt__name">Rota da Imigração Alemã</h4><p class="rt__desc">São Leopoldo e Ivoti. Do 5º ao 8º ano.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Natureza na Serra"><figure class="rt__media"><img src="img/roteiros/caracol.jpg" alt="Cascata do Caracol, em Canela" loading="lazy" /></figure><p class="rt__type">Viagem de estudo · 2 dias</p><h4 class="rt__name">Natureza na Serra</h4><p class="rt__desc">Gramado e Canela. Geografia e meio ambiente, do 6º ao 9º ano.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Serra da imigração italiana"><figure class="rt__media"><img src="img/roteiros/caminhos.jpg" alt="Casa histórica nos Caminhos de Pedra" loading="lazy" /></figure><p class="rt__type">Viagem de estudo · 2 dias</p><h4 class="rt__name">Serra da imigração italiana</h4><p class="rt__desc">Bento Gonçalves e Gramado. Do 7º ao 9º ano.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Cânions dos Aparados"><figure class="rt__media"><img src="img/roteiros/canions.jpg" alt="Cânion Itaimbezinho" loading="lazy" /></figure><p class="rt__type">Viagem de estudo · 2 dias</p><h4 class="rt__name">Cânions dos Aparados</h4><p class="rt__desc">Cambará do Sul. Geologia e biologia no Ensino Médio.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Mar, dunas e falésias"><figure class="rt__media"><img src="img/roteiros/guarita.jpg" alt="Parque da Guarita, em Torres" loading="lazy" /></figure><p class="rt__type">Saída de um dia · Litoral Norte</p><h4 class="rt__name">Mar, dunas e falésias</h4><p class="rt__desc">Torres e Parque da Guarita. Do 6º ao 9º ano.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Pelotas e o ciclo do charque"><figure class="rt__media"><img src="img/roteiros/pelotas.jpg" alt="Centro histórico de Pelotas" loading="lazy" /></figure><p class="rt__type">Viagem de estudo · 3 dias</p><h4 class="rt__name">Pelotas e o ciclo do charque</h4><p class="rt__desc">Centro histórico e charqueadas. Ensino Médio.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Formatura"><figure class="rt__media"><img src="img/destinos/floripa.jpg" alt="Praia de Canasvieiras, em Florianópolis" loading="lazy" /></figure><p class="rt__type">Formatura · 4 a 6 dias</p><h4 class="rt__name">A viagem que fecha o ciclo</h4><p class="rt__desc">Florianópolis, Foz e outros. 9º ano e 3º do Médio.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+        </ul>
+      </div>
+
+      <div class="seg" id="religioso">
+        <div class="seg__head">
+          <p class="eyebrow">Turismo religioso</p>
+          <h3 class="seg__title">Fé que se visita.</h3>
+          <p>Foi assim que a Brasiliana começou. Romarias e peregrinações para paróquias, pastorais, escolas confessionais e famílias.</p>
+        </div>
+        <ul class="rts">
+          <li class="rt" data-trip="Aparecida/SP"><figure class="rt__media"><img src="img/destinos/aparecida.jpg" alt="Santuário Nacional de Aparecida" loading="lazy" /></figure><p class="rt__type">Peregrinação · 4 dias</p><h4 class="rt__name">Aparecida</h4><p class="rt__desc">Santuário Nacional, em São Paulo.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Pai Eterno"><figure class="rt__media"><img src="img/destinos/pai-eterno.jpg" alt="Santuário do Divino Pai Eterno, em Trindade" loading="lazy" /></figure><p class="rt__type">Peregrinação · Goiás</p><h4 class="rt__name">Pai Eterno</h4><p class="rt__desc">Santuário Basílica do Divino Pai Eterno, em Trindade.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Vaticano e Roma"><figure class="rt__media"><img src="img/destinos/vaticano.jpg" alt="Praça de São Pedro, no Vaticano" loading="lazy" /></figure><p class="rt__type">Peregrinação · Internacional</p><h4 class="rt__name">Vaticano e Roma</h4><p class="rt__desc">Basílicas, catacumbas e a Praça de São Pedro.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Romaria a Caravaggio"><figure class="rt__media"><img src="img/roteiros/caravaggio.jpg" alt="Santuário de Caravaggio, em Farroupilha" loading="lazy" /></figure><p class="rt__type">Romaria · 1 dia · Serra Gaúcha</p><h4 class="rt__name">Romaria a Caravaggio</h4><p class="rt__desc">Santuário de Nossa Senhora de Caravaggio, em Farroupilha. Para paróquias, catequese e crisma.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Caminhos da diversidade religiosa"><figure class="rt__media"><img src="img/roteiros/budista.jpg" alt="Templo budista Khadro Ling, em Três Coroas" loading="lazy" /></figure><p class="rt__type">1 dia · Vale do Paranhana</p><h4 class="rt__name">Caminhos da diversidade religiosa</h4><p class="rt__desc">Templo budista de Três Coroas e casas de fé de Porto Alegre. Ótimo para escolas.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Missões (roteiro de fé)"><figure class="rt__media"><img src="img/roteiros/missoes.jpg" alt="Ruínas de São Miguel Arcanjo" loading="lazy" /></figure><p class="rt__type">3 dias · Noroeste do RS</p><h4 class="rt__name">Missões</h4><p class="rt__desc">As reduções jesuíticas e o espetáculo de Som e Luz nas ruínas.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+        </ul>
+      </div>
+
+      <div class="seg" id="enoturismo">
+        <div class="seg__head">
+          <p class="eyebrow">Enoturismo</p>
+          <h3 class="seg__title">Da uva à taça.</h3>
+          <p>A Serra Gaúcha das vinícolas, dos parreirais e da cozinha italiana. Para grupos de amigos, casais, equipes e, com suco de uva, para escolas.</p>
+        </div>
+        <ul class="rts">
+          <li class="rt" data-trip="Vale dos Vinhedos"><figure class="rt__media"><img src="img/roteiros/vinhedos.jpg" alt="Videiras refletidas num lago em Bento Gonçalves" loading="lazy" /></figure><p class="rt__type">Enoturismo · 2 dias</p><h4 class="rt__name">Vale dos Vinhedos</h4><p class="rt__desc">Bento Gonçalves e Garibaldi: vinícolas, degustações e jantar típico.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Caminhos de Pedra e espumantes"><figure class="rt__media"><img src="img/roteiros/caminhos.jpg" alt="Casa histórica nos Caminhos de Pedra" loading="lazy" /></figure><p class="rt__type">Enoturismo · 1 dia</p><h4 class="rt__name">Caminhos de Pedra e espumantes</h4><p class="rt__desc">Casas dos imigrantes italianos, cantinas e espumantes de Garibaldi.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Da uva ao suco (escolas)"><figure class="rt__media"><img src="img/roteiros/parreiral.jpg" alt="Parreiral no Vale dos Vinhedos" loading="lazy" /></figure><p class="rt__type">Saída de um dia · Escolas</p><h4 class="rt__name">Da uva ao suco</h4><p class="rt__desc">Agroindústria e imigração na prática, com degustação só de suco de uva.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+        </ul>
+      </div>
+
+      <div class="seg" id="corporativo">
+        <div class="seg__head">
+          <p class="eyebrow">Turismo corporativo</p>
+          <h3 class="seg__title">Sua equipe também viaja.</h3>
+          <p>Integração, convenções, congressos e viagens de incentivo, com aéreo, hotel, traslados e um contato só do começo ao fim.</p>
+        </div>
+        <ul class="rts">
+          <li class="rt" data-trip="Integração de equipe"><figure class="rt__media"><img src="img/grupos/grupo-03.jpg" alt="Grupo da Brasiliana reunido em viagem" loading="lazy" /></figure><p class="rt__type">Corporativo · 2 dias</p><h4 class="rt__name">Integração de equipe</h4><p class="rt__desc">Serra Gaúcha ou litoral, com planejamento, dinâmicas e lazer.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Congressos e feiras"><figure class="rt__media"><img src="img/grupos/grupo-06.jpg" alt="Grande grupo da Brasiliana num auditório" loading="lazy" /></figure><p class="rt__type">Corporativo · 2 a 4 dias</p><h4 class="rt__name">Congressos e feiras</h4><p class="rt__desc">São Paulo e outras capitais: aéreo, hotel, inscrição e traslados.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Visita técnica"><figure class="rt__media"><img src="img/roteiros/tecnopuc.jpg" alt="Entrada do Tecnopuc, parque tecnológico da PUCRS" loading="lazy" /></figure><p class="rt__type">Visita técnica · 1 dia</p><h4 class="rt__name">Inovação e visitas técnicas</h4><p class="rt__desc">Parques tecnológicos e indústrias, para equipes e para o Ensino Médio.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+          <li class="rt" data-trip="Viagem de incentivo"><figure class="rt__media"><img src="img/destinos/nordeste.jpg" alt="Orla de Maragogi" loading="lazy" /></figure><p class="rt__type">Incentivo · sob medida</p><h4 class="rt__name">Viagem de incentivo</h4><p class="rt__desc">Prêmio para quem bateu a meta: Nordeste, Nova York, Europa.</p><button class="link-btn" type="button" data-book>Quero esse roteiro</button></li>
+        </ul>
       </div>
     </section>
 
@@ -655,6 +751,6 @@
     <ul class="credits__list"></ul>
     <button class="pill pill--light" type="button" data-close>Fechar</button>
   </dialog>
-
+
 </body>
 </html>
